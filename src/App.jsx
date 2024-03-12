@@ -23,7 +23,6 @@ function App() {
               <h1>こちらでいいねをお願いします。</h1>
               <LikeButton></LikeButton>
               <h1>こちらが社員一覧です</h1>
-              <h1>こちらが社員一覧です</h1>
 
       {/* map関数は、javaでいうfor文みたいなもの。今回、usersはリストなので、一人ひとり画面を移さないといけないので、for文となる。
     javaと違うところは、アロー関数を使ってるところ。
@@ -52,7 +51,7 @@ function LikeButton() {
   };
   // span要素のonClick属性にhandleClick関数を渡す
   return (
-  <span className='likeButton' onClick={handleClick}>♡{count}  </span>
+  <span className='likeButton' onClick={handleClick}>いいね！{count} 件 </span>
   )
 
 }
