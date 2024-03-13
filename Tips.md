@@ -9,3 +9,5 @@ Ctrl + C
 操作可能なプログラムまたはバッチ ファイルとして認識されていません。`
 
 cmdでyarn installを打ち込み、node_modulesディレクトリを作成する
+
+# リポジトリの名前はケバブケース（sample-git-repository）にする
